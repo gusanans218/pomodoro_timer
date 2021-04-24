@@ -79,6 +79,7 @@ class MainActivity : AppCompatActivity() {
         )
     }
 
+
     private fun initSounds() {
         tickingSoundId = soundPool.load(this, R.raw.timer_ticking, 1)
         bellSoundId = soundPool.load(this, R.raw.timer_bell, 1)
